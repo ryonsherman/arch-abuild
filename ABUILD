@@ -1,0 +1,19 @@
+[source]
+;test-absolute = /tmp/repo/package
+;test-relative = tmp/repo/package
+;test-pacman = @extra/network-manager-applet
+;test-aur = @aur/yaourt-git
+
+;test-http = https://aur.archlinux.org/packages/ya/yaourt-git/yaourt-git.tar.gz
+;test-git = git+https://github.com/ryonsherman/test-package.git
+;test-git-subdir = subdir:git+https://github.com/ryonsherman/test-package.git
+;test-git-branch = git+https://github.com/ryonsherman/test-package.git#branch=test
+;test-svn =
+;test-cvs =
+;test-hg =
+
+;test-arch = (any)https://aur.archlinux.org/packages/ya/yaourt-git/yaourt-git.tar.gz
+;test-arch-1 = (i386,x86_64)https://aur.archlinux.org/packages/ya/yaourt-git/yaourt-git.tar.gz
+;test-arch-2 = (i386 x86_64)https://aur.archlinux.org/packages/ya/yaourt-git/yaourt-git.tar.gz
+
+yaourt-git = https://aur.archlinux.org/packages/ya/yaourt-git/yaourt-git.tar.gz
